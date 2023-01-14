@@ -29,3 +29,6 @@ delete from AddressBookTable where FirstName='Bruce'
 
 select * from addressbooktable
 
+select * from addressbooktable where City='mumbai'
+select * from addressbooktable where State='New York'
+
