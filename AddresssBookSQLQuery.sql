@@ -28,3 +28,4 @@ where FirstName = 'Jon'
 delete from AddressBookTable where FirstName='Bruce'  
 
 select * from addressbooktable
+
