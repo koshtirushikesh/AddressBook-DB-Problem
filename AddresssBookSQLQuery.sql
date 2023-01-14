@@ -17,4 +17,12 @@ insert into AddressBookTable values('Ron','Wane','12 Street','Manhattan','New Yo
 insert into AddressBookTable values('Jon','Henson','12 Street','Manhattan','New York','400078','8898334561','jonwane3@gmail.com')
 insert into AddressBookTable values('Rushi','Koshti','12 Street','Mumbai','Maharastra','400078','7894561223','rushi3@gmail.com')
 
+update AddressBookTable 
+set Address = '15 street'
+where FirstName = 'Jon'
+
+update AddressBookTable 
+set City = 'Mishigan'
+where FirstName = 'Jon'
+
 select * from addressbooktable
